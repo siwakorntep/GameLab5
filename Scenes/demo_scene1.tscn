@@ -172,7 +172,6 @@ transform = Transform3D(0.9993942, -0.0027920185, -0.034694515, 0.029416604, 0.6
 transform = Transform3D(3.9312, 0, 0, 0, 0.39312, 0, 0, 0, 3.9312, 0.0200105, 3, 0.00302696)
 
 [node name="PlatformBlue" parent="Platforms" unique_id=1419035058 instance=ExtResource("3_82rq4")]
-transform = Transform3D(3.90286, 0, 0, 0, 0.864, 0, 0, 0, 3.90286, 0, 3, -11)
 
 [node name="PlatformBlue2" parent="Platforms" unique_id=1415533081 instance=ExtResource("3_82rq4")]
 transform = Transform3D(3.90286, 0, 0, 0, 0.864, 0, 0, 0, 3.90286, 0, -0.4517436, -21.7155)
@@ -224,17 +223,14 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.14469433, 5.33979, -11)
 [node name="GameManager" type="Node3D" parent="." unique_id=726675298]
 script = ExtResource("6_qbvok")
 
-[node name="Area3D" type="Area3D" parent="." unique_id=1484781193]
+[node name="Area3D" type="Node3D" parent="." unique_id=1779468045]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -9.90313)
 
 [node name="Kill_Box" parent="Area3D" unique_id=1998978183 instance=ExtResource("8_5s3bn")]
-transform = Transform3D(8.513871, 0, 0, 0, 1, 0, 0, 0, 1, -0.13496032, 0.4324789, -42.56893)
 
 [node name="Kill_Box2" parent="Area3D" unique_id=676265091 instance=ExtResource("8_5s3bn")]
-transform = Transform3D(6.1249866, -0.69458294, 0, 5.9135895, 0.7194126, 0, 0, 0, 1, -0.13496032, 2.0128899, -36.97257)
 
 [node name="Kill_Box3" parent="Area3D" unique_id=492052677 instance=ExtResource("8_5s3bn")]
-transform = Transform3D(0.0055913925, -0.9999999, 0, 8.513869, 0.000656724, 0, 0, 0, 1, 2.138853, 2.0128899, -39.823257)
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="Area3D" unique_id=1700478961]
 libraries/ = SubResource("AnimationLibrary_82rq4")
@@ -249,16 +245,12 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -9, 0)
 shape = SubResource("BoxShape3D_asf4q")
 
 [node name="Kill_Box" parent="DeadZone" unique_id=1742810759 instance=ExtResource("8_5s3bn")]
-transform = Transform3D(8.513871, 0, 0, 0, 1, 0, 0, 0, 1, -0.13496032, 4.69866, -17.90482)
 
 [node name="Kill_Box2" parent="DeadZone" unique_id=1779317979 instance=ExtResource("8_5s3bn")]
-transform = Transform3D(8.513871, 0, 0, 0, 1, 0, 0, 0, 1, -0.13496032, 3.4043193, -7.071536)
 
 [node name="Kill_Box3" parent="DeadZone" unique_id=1294996004 instance=ExtResource("8_5s3bn")]
-transform = Transform3D(8.513871, 0, 0, 0, 1, 0, 0, 0, 1, -0.13496032, 3.4043193, -9.63896)
 
 [node name="Kill_Box4" parent="DeadZone" unique_id=1888446574 instance=ExtResource("8_5s3bn")]
-transform = Transform3D(8.513871, 0, 0, 0, 1, 0, 0, 0, 1, -0.13496032, 3.4043193, -12.848215)
 
 [node name="UserInterface" type="CanvasLayer" parent="." unique_id=573431954]
 
